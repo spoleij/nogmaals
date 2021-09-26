@@ -1,0 +1,5 @@
+# robotArm.moveRight()
+# robotArm.moveLeft()
+# robotArm.grab()
+# robotArm.drop()
+# color = robotArm.scan()

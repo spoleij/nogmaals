@@ -4,5 +4,3 @@ while x >= 20 and x <=50:
     if x % 2 == 0:
         print (x)
     x = x + 1
-
-# x % 2 == 0 and x

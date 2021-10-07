@@ -9,7 +9,3 @@ while welkeDag in alleDagen:
     print (*sliceIndex)
     break
      
-    
-# alleDagen = int(alleDagen)
-# y = list(map(int, alleDagen)) ????
-# , sep = "\n"

@@ -3,11 +3,13 @@
 
 welkeDag = input ("Geef een dag van de week: ")
 alleDagen = ['maandag', 'dinsdag', 'woensdag', 'donderdag', 'vrijdag', 'zaterdag', 'zondag']
+maakIndex = alleDagen.index(welkeDag)
+sliceIndex = alleDagen[:maakIndex+1]                # +1 anders print het programma niet de dag van de welkeDag input
 while welkeDag in alleDagen:
-    print (alleDagen[:welkeDag])
+    print (*sliceIndex)
     break
      
     
 # alleDagen = int(alleDagen)
-# y = list(map(int, alleDagen))
+# y = list(map(int, alleDagen)) ????
 # , sep = "\n"
